@@ -268,6 +268,8 @@ header ul.main > li:hover::before {
     header .container h2
     {
         flex-basis: 100%;
+        text-align: center;
+        margin: 10px 0 15px;
     }
     header .container > a 
     {
@@ -280,7 +282,7 @@ header ul.main > li:hover::before {
     {
         flex-basis: 100%;
         justify-content: space-evenly;
-        margin: auto;
+        margin: 0 auto;
     }
     header .container ul.main > li a
     {
@@ -784,7 +786,7 @@ section.testimonials .container
 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-    gap: 30px;
+    gap: 50px 30px;
 }
 section.testimonials .container .employee
 {
@@ -805,6 +807,7 @@ section.testimonials .container .employee .image
     width: 25%;
     border: 10px solid var(--secondry-color);
     border-radius: 50%;
+    background-color: white;
 }
 section.testimonials .container .employee .image  img
 {
@@ -1442,7 +1445,7 @@ section.pricing .container .price:hover::before
 {
     width: 100%;
 }
-@media (min-width: 1024px)
+@media (min-width: 1180px)
 {
     section.pricing .container .price:nth-child(2)
     {
@@ -1946,14 +1949,14 @@ footer > p span
         margin-bottom: 15px;
     }
 }
+/* End Footer */
 
-img{
-    background-color: #afa;
+
+img[src="media/placeholder.png"]{
+    background-color: #f4fff4;
 }
 
 section.our-skills img , section.how-it-works img{
     background-color: transparent;
 }
-/* End Footer */
-
 
